@@ -26,7 +26,7 @@
                 <div class="ola">
                     <div class="pre"></div>
                     <div class="container-fluid">
-                        <p class="text-center">Loading....</span></P>
+                        <p class="text-center">Loading..</span></P>
                     </div>
                 </div>
             </section>
