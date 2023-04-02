@@ -1,0 +1,301 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.ca{
+    background-color: goldenrod;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.ca .card{
+    border-radius: none;
+    background-color: white;
+    padding: 5px;
+}
+.modal-header{
+    background-color: ghostwhite;
+}
+.forma label{
+    font-size: 18px;
+
+}
+.ca button{
+    background-color:rgb(219, 146, 9);
+    color: white;
+}
+.ca3 button{
+    background-color:rgb(89, 89, 248);
+    color: white;
+}
+.ca3{
+    background-color: rgb(89, 89, 248);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.ca3 .card{
+    border-radius: none;
+    background-color: white;
+    padding: 5px;
+}
+
+.ca2 button{
+    background-color:rgb(221, 10, 10);
+    color: white;
+}
+.ca2{
+    background-color: rgb(228, 23, 23);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.ca2 .card{
+    border-radius: none;
+    background-color: white;
+    padding: 5px;
+}
+
+.forma1 button{
+    box-shadow: 2px 2px 2px white;
+}
+.card-1{
+    margin: 30px;
+    margin-top: 35px;
+    border-radius: 2px;
+    border-radius: 1%;
+    box-shadow: 0 4px 6px rgb(40, 40, 40);
+}
+.card-body{
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(4px);
+    color: black;
+}
+.card{
+    box-shadow: 0 5px 5px rgb(40, 40, 40);
+}
+.card-header{
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(8px);
+    height: 33px;
+}
+.card-footer{
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(8px);
+    height: 40px;
+}
+.card-footer p{
+    color: gray;
+    padding-bottom: 20px;
+}
+.tab-content{
+    background-color: white;
+    background-image: url("images/ispaj.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    animation: zoom 1s;
+    padding-top: 30px;
+    opacity: 0.8;
+    height: 80%;
+}
+.navbar-brand a{
+    font-size: 18px;
+}
+.nave{
+    background-color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ola img{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    padding-left: 30px;
+}
+
+.ola2 {
+    align-items: center;
+    color: gray;
+    position: center;
+    justify-content: center;
+}
+
+.modal-dialog{
+    padding-top: 8%;
+    animation: zooms 2s;
+}
+
+@keyframes zooms{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.box-load{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 54);
+    display: flex;
+}
+.box-load p{
+    padding-top: 20px;
+    color: rgb(219, 146, 9);
+    font-size: 20px;
+}
+.pre{
+    width: 120px;
+    height: 120px;
+    background-image: url("images/ispaj.png");
+    background-position: center;
+    background-size: contain;
+    animation: load 2s infinite linear;
+}
+@keyframes load{
+    to{transform: rotate(360deg)}
+}
+
+#login .card{
+        height: 100%;
+}
+#login {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    padding-bottom: 70px;
+    padding-left: 270px;
+}
+
+#login .lo{
+    font-weight: 600;
+    padding-bottom: 25px;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+}
+
+#login .col-md-4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: gold;
+    padding: 60px;
+    width: 17vw;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    box-shadow: 0 4px 6px rgb(40, 40, 40);
+}
+
+#login .col-md-8{
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    border-radius: 1%;
+    width: 40vw;
+    box-shadow: 0 4px 6px rgb(40, 40, 40);
+}
+#navegar{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+}
+#navegar .container-fluid{
+    padding-right: 90px;
+    width: 100%;
+}
+
+.forma1{
+    height: 100%;
+    padding: 40px;
+    padding-top: 20px;
+    animation: zoom 1s;
+    margin-left: 2px;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.waves{
+    position: absolute;
+    bottom: 0px;
+}
+@media screen and (max-width:600px) {
+    #login {
+        background-color: whitesmoke;
+        width: 100%;
+        height: 100vh;
+        padding-top: 0px;
+        align-items: center;
+        justify-self: center;
+        display: flex;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #login .col-md-4{
+        padding: 10px;
+        width: 30vw;
+    }
+    #login .col-md-4 img{
+        width: 35vw;
+    }
+    
+    #login .col-md-8{
+        padding: 10px;
+        width: 65vw;
+    }
+    #navegar .container-fluid{
+        padding-right: 5px;
+        width: 100%;
+
+        display: flex;
+    }
+    .ola img{
+        width: 60%;
+        height: 60%;
+        padding-right: 60px;
+    }
+    .modal-dialog{
+        padding-top: 15%;
+        animation: zooms 2s;
+    }
+    .tab-content{
+        height: 100vh;
+    }
+    .card-1{
+        margin: 5px;
+        margin-top: 10px;
+        border-radius: 2px;
+    }
+    .forma1{
+        height: 100%;
+        padding: 15px;
+        padding-top: 5px;
+        animation: zoom 1s;
+    }
+    .card-footer{
+        height: 2%;
+    }
+}

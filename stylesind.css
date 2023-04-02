@@ -1,0 +1,227 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.forma1 button{
+    box-shadow: 2px 2px 2px white
+}
+
+.navbar-brand a{
+    font-size: 18px;
+}
+.nave{
+    background-color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ola img{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    padding-left: 30px;
+}
+
+.ola2 {
+    align-items: center;
+    color: gray;
+    position: center;
+    justify-content: center;
+}
+.card-body form i{
+    color: white;
+    font-size: 18px;
+}
+.modal-dialog{
+    padding-top: 8%;
+    animation: zooms 1s;
+}
+
+@keyframes zooms{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.box-load{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 54);
+    display: flex;
+}
+.box-load p{
+    padding-top: 20px;
+    color: rgb(219, 146, 9);
+    font-size: 20px;
+}
+.pre{
+    width: 120px;
+    height: 120px;
+    background-image: url("images/ispaj.png");
+    background-position: center;
+    background-size: contain;
+    animation: load 2s infinite linear;
+}
+@keyframes load{
+    to{transform: rotate(300deg)}
+}
+#login .card{
+    height: 100%;
+}
+#login {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    padding-top: 25px;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    padding-bottom: 90px;
+    padding-left: 270px;
+}
+
+#login .lo h1{
+    font-weight: bold;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    font-size: 30px;
+}
+#login button{
+    box-shadow: 2px 2px 2px gray;
+}
+#login .po button{
+    box-shadow: 2px 2px 2px gray;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#login .col-md-4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: gold;
+    padding: 60px;
+    width: 17vw;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    box-shadow: 0 4px 6px rgb(40, 40, 40);
+}
+
+#login .col-md-8{
+    padding: 60px;
+    padding-bottom: 95px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    border-radius: 1%;
+    width: 40vw;
+    box-shadow: 0 4px 6px rgb(40, 40, 40);
+}
+#login .col-sm-1 img{
+    padding-top: 5px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.painel-footer{
+    background-color: rgb(211, 15, 15);
+    font-size: 14px;
+    color: white;
+}
+#navegar{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+}
+#navegar .container-fluid{
+    padding-right: 90px;
+    width: 100%;
+}
+
+.forma1{
+    height: 100%;
+    padding: 40px;
+    padding-top: 20px;
+    animation: zoom 1s;
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.waves{
+    position: absolute;
+    bottom: 0px;
+}
+@media screen and (max-width:600px) {
+    #login {
+        background-color: whitesmoke;
+        width: 100%;
+        height: 100vh;
+        padding-top: 0px;
+        align-items: center;
+        justify-self: center;
+        display: flex;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #login .col-md-4{
+        padding: 10px;
+        width: 30vw;
+    }
+    #login .col-md-4 img{
+        width: 32vw;
+    }
+    
+    #login .col-md-8{
+        padding: 2px;
+        width: 58vw;
+    }
+    #navegar .container-fluid{
+        padding-right: 5px;
+        width: 100%;
+
+        display: flex;
+    }
+    .ola img{
+        width: 60%;
+        height: 60%;
+        padding-right: 60px;
+    }
+    .modal-dialog{
+        padding-top: 15%;
+        animation: zooms 2s;
+    }
+    .tab-content{
+        height: 100vh;
+    }
+    .card-1{
+        margin: 5px;
+        margin-top: 10px;
+        border-radius: 2px;
+    }
+    .forma1{
+        height: 100%;
+        padding: 15px;
+        padding-top: 5px;
+        animation: zoom 1s;
+    }
+    .card-footer{
+        height: 2%;
+    }
+}
